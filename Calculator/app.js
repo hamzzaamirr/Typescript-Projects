@@ -23,7 +23,7 @@ if (answer.option === "exponential") {
             message: "Enter the power of that number"
         }]);
     let expo = exponential(answerexpo.number3, answerexpo.power);
-    console.log(chalk.green(`The Exponential of ${answerexpo.number3} raise to power ${answerexpo.power} = ${expo}`));
+    console.log(chalk.green(`${answerexpo.number3} raise to power ${answerexpo.power} = ${expo}`));
 }
 else {
     let answer1 = await inquirer.prompt([{
