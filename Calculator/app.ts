@@ -1,9 +1,12 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 import figlet from "figlet";
+import chalkanimation from "chalk-animation";
 import {addition,subtraction,division,multiplication,exponential} from "./operation.js"
 
-console.log(figlet.textSync('Calulator'));
+// console.log(figlet.textSync('Calulator'));
+// chalkanimation.rainbow(`WELLCOME`);
+// chalkanimation.rainbow(`DEVELOP BY HAMZA AMIR`);
 
 let answer = await inquirer.prompt([
     {
@@ -61,5 +64,8 @@ else if(answer.option==="subtraction"){
 
 }
 }
+
+
+
 
 
